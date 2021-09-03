@@ -1,7 +1,7 @@
 node{
 
-   def tomcatWeb = 'C:\tomcat-8.5.70\webapps'
-   def tomcatBin = 'C:\tomcat-8.5.70\bin'
+   def tomcatWeb = 'C:\\tomcat-8.5.70\\webapps'
+   def tomcatBin = 'C:\\tomcat-8.5.70\\bin'
    def tomcatStatus = ''
    stage('SCM Checkout'){
      git 'https://github.com/ndivdevop/newprjct.git'
